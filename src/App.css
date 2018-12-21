@@ -1,32 +1,143 @@
+html .App {
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   text-align: center;
+  background-color: #f0f0f0;
+  font-family: 'Open sans', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+Header {
+  background-color: #fff;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-family: 'Open sans', sans-serif;
+  Color:  #585858;
+  line-height: 3.25rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: .875rem;
+  margin-top: 7px;
+}
+
+nav {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+nav ul li{
+  list-style-type: none;
+  margin: 0 14px;
+  padding: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .875rem;
+  color: #91a0b7;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+  Color: #585858
+}
+
+a:hover {
+  color: red;
+}
+main {
+  flex: 2 0 auto;
+}
+
+footer {
+  background-color: #28374c;
+  color: #91a0b7;
+  padding: 42px 0;
+  margin-bottom: 2.25rem;
+  width: 100%;
+}
+
+footer .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  margin: auto;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+.footer-column {
+  width: 33%;
+}
+
+footer a:hover {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer-bottom {
+  border-top: 1px solid #31435d;
+  padding-top: 56px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer h3 {
+  color: #fff;
+  margin-bottom: 21px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.follow-us ul li {
+  color:  #91a0b7;
+  display: inline-block;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.tag-cloud ul li {
+  border: 1px solid #91a0b7;
+  display: inline-block;
+  margin: 7px 7px 7px 7px;
+  padding: 5px;
+}
+
+.footer-links {
+  font-size: .875rem;
+  border-top: 1px solid #31435d;
+  padding-top: 15px;
+
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.return-to-top {
+
+}
+
+.up-arrow {
+  position: fixed;
+  right: 7px;
+  bottom: 7px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #28374c;
+  color: #fff;
+  cursor: pointer;
+  display: none;
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import Home from './Home'
@@ -21,7 +20,7 @@ class App extends Component {
 
           <header>
             <div className="container">
-            <Link to="/home"><h1>Dress Scape</h1></Link>
+            <Link to="/home"><h1>DRESS SCAPE</h1></Link>
             <h2>Discover your dream dress</h2>
             <span className="toggle-add">+</span>
             </div>
@@ -54,17 +53,22 @@ class App extends Component {
                 <div className="footer-recently-viewed">
                   <h3>Recently viewed</h3>
                   <ul>
-                    <li></li>
+                    <li>LOLA by Erin Claire Bridal</li>
+                    <li>Zara Lux by Erin Claire Bridal</li>
+                    <li>Amelia by Erin Claire Bridal</li>
                   </ul>
                 </div>
               </div>
-            </div>
 
             <div className="footer-column">
               <div className="tag-cloud">
                 <h3>Tag Cloud</h3>
                 <ul>
-                  <li></li>
+                  <li>A-line</li>
+                  <li>Capped-sleeve</li>
+                  <li>Train</li>
+                  <li>Lace</li>
+                  <li>Heart-shaped</li>
                 </ul>
               </div>
             </div>
@@ -77,19 +81,26 @@ class App extends Component {
                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>          
                 </ul>
               </div>
-            </div>
-
-            <div className="footer-links">
+              <div className="footer-links">
               <ul>
-                <li></li>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Careers</li>
+                <li>Contact Us</li>
               </ul>
             </div>
+            </div>
+          </div>
 
             <div className="footer-bottom">
-              <p>&copy; 2018 - Search for White - All rights reserved.</p>
+              <p>&copy; 2018 - Dress Scape - All rights reserved.</p>
             </div>
           </footer>
-
+        </div>
+        <div ClassName="return-to-top">
+          <div className = "Up-Arrow">
+           <i class="fas fa-long-arrow-alt-up"></i>
+          </div>
         </div>
       </Router>
     );
